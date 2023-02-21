@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+}
+
+a {
+    text-decoration: none;
+  }
+
+
+
+#h1png {
+    width: 8%;
+    display: block;
+    margin: 10px auto;
+}
+
+.wrapper {
+    font-size: 10px;
+    width: 700px;
+    margin: 15px auto 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper:hover {
+    color: gray;
+}
+.items {
+    text-align: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.items:hover{
+    cursor: pointer;
+    color: black;
+}
+
+main {
+    width: 100%;
+}
+
+
+
+.first-block {
+    width: 100%;
+    height: 300px;
+    margin: 50px 0;
+
+    background-color: gray;
+}
+
+#image-1 {
+    width: 25%;
+    float: left;
+    margin: 15px 0 auto 24%;
+}
+
+div p {
+    margin: 10px 0;
+}
+
+.text-1 {
+    width: 25%;
+    height: 90%;
+    float: right;
+    padding: 10px 0;
+    margin: 15px 25% auto 0;
+    background-color: blanchedalmond;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    font-size: smaller;
+    border-radius: 20px;
+    border: 1px solid blue;
+    margin-top: 15px;
+}
+
+
+.second-block {
+    width: 100%;
+    height: 300px;
+    margin: 50px 0;
+
+    background-color: gray;
+}
+
+#image-2 {
+    width: 25%;
+    float: right;
+    margin: 15px 24% auto 0;
+}
+
+.text-2 {
+    width: 25%;
+    height: 90%;
+    float: left;
+    padding: 15px 0;
+    margin: 15px 0 auto 24%;
+    background-color: blanchedalmond;
+}
+
+
+
+.thirt-block {
+    width: 100%;
+    height: 300px;
+    margin: 50px 0;
+
+    background-color: gray;
+}
+
+#image-3 {
+    width: 25%;
+    float: left;
+    margin: 15px 0 auto 24%;
+}
+
+.text-3 {
+    width: 25%;
+    height: 90%;
+    float: right;
+    padding: 15px 0;
+    margin: 15px 25% auto 0;
+    background-color: blanchedalmond;
+}
+
+.wrapper-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-3 {
+    width: 100px;
+    height: 40px;
+    margin: 0 15px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+}
+
+.button-4 {
+    width: 200px;
+    height: 40px;
+    margin: 0 15px;
+    border-radius: 20px;
+    border: 1px solid blue;
+}
+
+.disney-h2-div {
+    display: block;
+    width: 100%;
+    margin: 50px auto 30px auto;
+    text-align: center;
+}
+
+.wrapper-2 {
+    width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(5, 20%);
+}
+
+.img-items {
+    width: 250px;
+    height: 250px;
+}
+
+.follow {
+    width: 100%;
+}
+
+#follow-btn {
+    width: 80px;
+    display: block;
+    margin: 10px auto 20px auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+@media (max-width: 1820px) {
+  .first-block,
+  .second-block,
+  .thirt-block {
+    height: 280px;
+  }  
+}
+@media (max-width: 1720px) {
+    .first-block,
+    .second-block,
+    .thirt-block {
+      height: 265px;
+    }  
+  }
+  @media (max-width: 1620px) {
+    .first-block,
+    .second-block,
+    .thirt-block {
+      height: 255px;
+    }  
+  }
+  @media (max-width: 1520px) {
+    .first-block,
+    .second-block,
+    .thirt-block {
+      height: 237px;
+    }  
+  }
+  @media (max-width: 1420px) {
+    .first-block,
+    .second-block,
+    .thirt-block {
+      height: 221px;
+    }  
+  }
+  @media (max-width: 1280px) {
+    .first-block,
+    .second-block,
+    .thirt-block {
+      height: 200px;
+      font-size: 12px;
+    } 
+    .wrapper-2 {
+        width: 1200px;
+    }
+    .img-items {
+        width: 230px;
+        height: 230px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .first-block,
+    .second-block,
+    .thirt-block {
+      height: 190px;
+    } 
+
+    .wrapper-2 {
+      width: 1050px;
+    }
+    .img-items {
+        width: 200px;
+        height: 200px;
+    }
+  }
+  @media (max-width: 1050px) {
+    .first-block,
+    .second-block,
+    .thirt-block {
+      height: 170px;
+      font-size: 10px;
+    } 
+    .button {
+        width: 100px;
+        height: 20px;
+        margin-top: 10px;
+    }
+    .wrapper-2 {
+      width: 900px;
+    }
+    .img-items {
+        width: 170px;
+        height: 170px;
+    }
+  }
+
+  @media (max-width: 950px) {
+    .first-block,
+    .second-block,
+    .thirt-block {
+        height: 210px;
+    }
+
+    #image-1,
+    #image-2,
+    #image-3 {
+        width: 35%;
+    }
+    .text-1,
+    .text-2,
+    .text-3 {
+        width: 35%;
+    }
+    .text-1,
+    .text-3 {
+        margin-right: 14%;
+    }
+    .text-2 {
+        margin-left: 14%;
+    }
+
+
+
+
+    #image-1,
+    #image-3 {
+        margin-left: 14%;
+    }
+    #image-2 {
+        margin-right: 14%;
+    }
+    .wrapper-2 {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5;
+    }
+    .img-items {
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+    }
+  }
+
+  @media (max-width: 700px) {
+    #h1png {
+        width: 40%;
+    }
+    .first-block {
+        height: 500px;
+    }
+    #image-1 {
+        display: block;
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+    .text-1 {
+        width: 90%;
+        float: none;
+        margin: 0 0 0 5%;
+        height: auto;
+    }
+    .second-block {
+        height: 500px;
+    }
+    #image-2 {
+        display: block;
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+    .text-2 {
+        width: 90%;
+        float: none;
+        margin: 0 0 0 5%;
+        height: auto;
+    }
+    .thirt-block {
+        height: 500px;
+    }
+    #image-3 {
+        display: block;
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+    .text-3 {
+        width: 90%;
+        float: none;
+        margin: 0 0 0 5%;
+        height: auto;
+    }
+    .button {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .wrapper {
+        font-size: 0;
+        width: 0;
+    }
+    
+  }
+
+  @media (max-width: 600px) {
+    .first-block,
+    .second-block,
+    .thirt-block {
+        height: 450px;
+    }
+  }
+  @media (max-width: 500px) {
+    .first-block,
+    .second-block,
+    .thirt-block {
+        height: 350px;
+    }
+  }
+  @media (max-width: 400px) {
+    .first-block,
+    .second-block,
+    .thirt-block {
+        height: 350px;
+    }
+  }
